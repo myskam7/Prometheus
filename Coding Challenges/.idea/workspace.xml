@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="192a9bec-3ecb-4431-be29-1cd0460f73b3" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="1340" />
+    <option name="width" value="340" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectId" id="1PfTzaPIqBuPIPg8YA1F2ftm4PY" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.CW_Product_of_consecutive_Fib_numbers.js">
+    <configuration name="CW_Product_of_consecutive_Fib_numbers.js (1)" type="MongoRunConfiguration" factoryName="Mongo" temporary="true">
+      <module name="LeetCode" />
+      <setting name="path" value="$PROJECT_DIR$/CW_Product_of_consecutive_Fib_numbers.js" />
+      <setting name="shellParams" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CW_Product_of_consecutive_Fib_numbers.js" type="MongoRunConfiguration" factoryName="Mongo" temporary="true">
+      <module name="LeetCode" />
+      <setting name="path" value="$PROJECT_DIR$/CW_Product_of_consecutive_Fib_numbers.js" />
+      <setting name="shellParams" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="The_highest_profit_wins!.js" type="MongoRunConfiguration" factoryName="Mongo" temporary="true">
+      <module name="LeetCode" />
+      <setting name="path" value="$PROJECT_DIR$/The_highest_profit_wins!.js" />
+      <setting name="shellParams" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CW_FunctionCalc.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/CW_FunctionCalc.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="CW_Product_of_consecutive_Fib_numbers.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="CW_Product_of_consecutive_Fib_numbers.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.CW_Product_of_consecutive_Fib_numbers.js" />
+        <item itemvalue="Mongo.CW_Product_of_consecutive_Fib_numbers.js (1)" />
+        <item itemvalue="Node.js.CW_FunctionCalc.js" />
+        <item itemvalue="Mongo.CW_Product_of_consecutive_Fib_numbers.js" />
+        <item itemvalue="Mongo.The_highest_profit_wins!.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="192a9bec-3ecb-4431-be29-1cd0460f73b3" name="Default Changelist" comment="" />
+      <created>1563661917827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563661917827</updated>
+      <workItem from="1563661919363" duration="11038000" />
+      <workItem from="1563732116426" duration="550000" />
+      <workItem from="1563918106458" duration="710000" />
+      <workItem from="1563992555053" duration="2288000" />
+      <workItem from="1564094515693" duration="1421000" />
+      <workItem from="1564124829592" duration="293000" />
+      <workItem from="1564174491311" duration="443000" />
+      <workItem from="1564191064841" duration="921000" />
+      <workItem from="1565231450369" duration="10921000" />
+      <workItem from="1565385707785" duration="1552000" />
+      <workItem from="1565729181257" duration="82000" />
+      <workItem from="1566264415259" duration="4656000" />
+      <workItem from="1566330356589" duration="1224000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/CW_FunctionCalc.js</url>
+          <line>205</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -58,34 +58,119 @@ Your code should preferably run in O(n) time and use only*/
 
 
 //CODE
-var getIntersectionNode = function(headA, headB) {
-    if(!headA || !headB) return null;
 
-    var listA = headA;
-    var listB = headB;
+function ListNode(val) {
+    this.val = val;
+    this.next = null;
+ }
 
-
-    while(listA != listB){
-        if(!listA){               //DID THE LIST END?
-            listA = headB;        //START LIST B
-        }else{
-            listA = listA.next;   //ELSE CONTINUE TO THE NEXT NODE
-        }
-
-        if(!listB){               //DID THE LIST END?
-            listB = headA;        //START LIST A
-        }else{
-            listB = listB.next;   //ELSE CONTINUE TO THE NEXT NODE
-        }
-
+ class LinkedList{
+    constructor(){
+        this.head = null;
+        this.tail = null;
+        this.length = 0;
     }
 
-    return listA;
+
+     append(value) {
+         var newNode = new ListNode(value);
+         if(!this.head){
+             this.head = newNode;
+             this.tail = this.head;
+         }else{
+             this.tail.next = newNode; //1 - create a new node
+             this.tail = newNode;      //2 -  re-assign tail to the new node
+             /*WRONG WAY
+              1 - this.tail = newNode;
+              2 - this.tail.next = newNode;
+              THIS^ will result in tail being null because by default tail is null
+             * */
+
+         }
+         this.length++;
+
+     }
 
 
 
-};
+      getIntersectionNode(headA, headB) {
+         if(!headA || !headB) return null;
 
+         let listA = headA;
+         let listB = headB;
+
+         while(listA != listB){
+             // console.log(listA, listB);
+             listA = !listA ?  headB : listA.next;
+             listB = !listB ?  headA : listB.next;
+             console.log(listA != listB);
+
+         }
+         return listA != listB || null ;
+     };
+
+ }
 
 
 //TEST
+let testCount = [0, 0];
+
+assert(testCount, 'able to assign a value upon instantiation', () => {
+    let node1 = new LinkedList();
+    let node2 = new LinkedList();
+    let inter = new LinkedList();
+
+    //List 1
+    node1.append(4);
+    node1.append(1);
+    node1.append(8);
+    node1.append(4);
+    node1.append(5);
+
+    //List 2
+    node2.append(5);
+    node2.append(0);
+    node2.append(1);
+    node2.append(8);
+    node2.append(4);
+    node2.append(5);
+
+
+   var res = inter.getIntersectionNode(node1, node2);
+
+
+    console.log(res);
+    return inter;
+});
+
+// custom assert function to handle tests
+// input: count {Array} - keeps track out how many tests pass and how many total
+//        in the form of a two item array i.e., [0, 0]
+// input: name {String} - describes the test
+// input: test {Function} - performs a set of operations and returns a boolean
+//        indicating if test passed
+// output: {undefined}
+function assert(count, name, test) {
+
+    if (!count || !Array.isArray(count) ) {
+        count = [0, '*'];
+    } else {
+        count[1]++;
+    }
+
+    let pass = 'false';
+    let errMsg = null;
+    try {
+        if (test()) {
+            pass = ' true';
+            count[0]++;
+        }
+    } catch(e) {
+        errMsg = e;
+    }
+    console.log('  ' + (count[1] + ')   ').slice(0,5) + pass + ' : ' + name);
+    if (errMsg !== null) {
+        console.log('       ' + errMsg + '\n');
+    }
+}
+

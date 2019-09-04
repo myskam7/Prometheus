@@ -92,7 +92,6 @@ function ListNode(val) {
      }
 
 
-
       getIntersectionNode(headA, headB) {
          if(!headA || !headB) return null;
 
